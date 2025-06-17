@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ty Kuehl for Tumwater School Board | Ty4TSD.com</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #003087; /* Tumwater blue */
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+    nav {
+      background: #006400; /* Tumwater green */
+      padding: 1rem;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav ul li {
+      margin: 0 1rem;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #003087;
+      font-size: 1.8rem;
+    }
+    .cta-button {
+      display: inline-block;
+      background: #006400;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.1rem;
+    }
+    .cta-button:hover {
+      background: #004d00;
+    }
+    .event {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background: #003087;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+    }
+    input, textarea {
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #006400;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #004d00;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav ul li {
+        margin: 0.5rem 0;
+      }
+      .container {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ty Kuehl for Tumwater School Board</h1>
+    <p>Together for Tumwater: Building a Brighter Future for Our Kids</p>
+    <a href="#contact" class="cta-button">Get Involved</a>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Ty</a></li>
+      <li><a href="#platform">Platform</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#contact">Contact/Donate</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <section id="home">
+      <h2>Welcome</h2>
+      <p>Hello, Tumwater! I’m Ty Kuehl, and I’m running for the Tumwater School Board to ensure our schools prioritize student success, teacher support, and community values. Vote for me on November 4, 2025, to build a stronger future for our kids!</p>
+      <a href="#contact" class="cta-button">Support the Campaign</a>
+    </section>
+    <section id="about">
+      <h2>About Ty Kuehl</h2>
+      <p>I’m a proud Tumwater resident, parent, and community member with a passion for education. With experience in [insert your profession, e.g., finance, community organizing], I bring skills in budgeting, collaboration, and problem-solving to the school board. I’m running to advocate for safe schools, quality education, and transparent leadership.</p>
+    </section>
+    <section id="platform">
+      <h2>My Platform</h2>
+      <ul>
+        <li><strong>Student Success</strong>: Prioritize resources for academic programs and mental health support.</li>
+        <li><strong>Teacher Support</strong>: Advocate for fair pay and professional development to retain great educators.</li>
+        <li><strong>Community Engagement</strong>: Ensure parents and residents have a voice in district decisions.</li>
+      </ul>
+    </section>
+    <section id="events">
+      <h2>Upcoming Events</h2>
+      <div class="event">
+        <h3>Meet Ty at Tumwater High School</h3>
+        <p>Date: October 10, 2025 | Time: 6:00 PM | Location: Tumwater High School Gym</p>
+        <p>Join me for a Q&A session to discuss your priorities for our schools.</p>
+      </div>
+      <div class="event">
+        <h3>Community Coffee Chat</h3>
+        <p>Date: October 20, 2025 | Time: 9:00 AM | Location: Tumwater Coffee House</p>
+        <p>Grab a coffee and share your ideas for the Tumwater School District!</p>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact & Donate</h2>
+      <p>Reach out to join the campaign or ask questions! Your support makes a difference.</p>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p><a href="https://www.paypal.com" target="_blank" class="cta-button">Donate Now</a></p>
+      <p>Email: <a href="mailto:Ty@Ty4TSD.com">Ty@Ty4TSD.com</a></p>
+      <p>Follow me: <a href="https://facebook.com" target="_blank">Facebook</a> | <a href="https://instagram.com" target="_blank">Instagram</a></p>
+    </section>
+  </div>
+  <footer>
+    <p>Ty Kuehl for Tumwater School Board | Vote November 4, 2025</p>
+    <p>Paid for to by Ty Kuehl for TSD Schools</p>
+  </footer>
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your message! Ty will get back to you soon.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
